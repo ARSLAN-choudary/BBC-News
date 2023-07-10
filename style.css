@@ -1,0 +1,694 @@
+@import url(css/bootstrap.min.css);
+        .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+            margin-top: -30px;
+        }
+        .navbar-nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        .navspan{
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: small;
+          font-weight: 600;
+        }
+        .verticalline{
+            border-left: 1px solid black;
+            height: 20px;
+            position: relative;
+        }
+        .nav-link{
+            
+            transition: all;
+            padding-right: 100px;
+        }
+    
+        .nav-link:hover{
+           text-decoration: underline;
+           color: blue;
+           transition: 0.5s;
+           width: fit-content;
+           
+        }
+        [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+            width: 225px;
+            border-radius: 0%;
+            height: 38px;
+            
+        }
+        .dot{
+            width: 5px;
+            height: 5px;
+            border-radius: 20%;
+            margin-top: 5px;
+            background-color: black;
+            margin-inline: 2px;
+        }
+        #dots{
+            display: flex;
+            
+        }
+        .btn{
+            text-decoration: none;
+            width: 200px;
+            display: none;
+        }
+        .nav-link{
+            font-size: small;
+        }
+        
+        
+        /* media quiries for 1st navbar */
+        .icon1{
+            display: none;
+        }
+        #icon{
+            display: none;
+            transition: all;
+        }
+        @media ( max-width:1276px){
+            #icon{
+                display: block;
+                color: black;
+            }
+            @media(max-width:1264px){
+                #icon{
+                    padding-right: 147px;
+                }
+            }
+        }
+       @media(min-width:1276px){
+        .btn{
+            display: block;
+        }
+       }
+       @media(max-width:1221px){
+        .culture{
+            display: none;
+        }
+       }
+       @media(max-width:958px){
+        .future{
+            display: none;
+        }
+       }
+       @media(max-width:835px){
+        .travel{
+            display: none;
+        }
+       }
+       @media(max-width:767px){
+        .worklife{
+            display: none;
+        }
+       }
+       @media(max-width:682px){
+        .reel{
+            display: none;
+        }
+       }
+       @media(max-width:1264px){
+        .nav-link{
+            padding-right: 25px;
+        }
+       }
+      
+       @media(max-width:885px){
+        .navspan{
+            display: none;
+        }
+       }
+      @media(max-width:576px){
+       #icon2{
+        display: none;
+       }
+       
+       .icon1{
+        display: block;
+       }
+       .verticalline{
+        display: none;
+       }
+       .navbar-brand{
+        padding-left: 50px;
+       }
+       .button{
+        width: 80px;
+       }
+      }
+       
+
+      /* 2nd navbar css */
+
+     header{
+        background-color: red;
+     }
+     .logo{
+        margin-top: -65px;
+     }
+     .secndul{
+        display: flex;     
+        padding-top: 60px;
+        margin-left: -10rem;
+     }
+     ul li a{
+        color: aliceblue;
+     }
+     ul li{
+        display: inline-block;
+        font-size: 13px;
+        font-weight: 500;
+        transition: all;
+     }
+     ul li:hover{
+        text-decoration: underline;
+        color: rgb(254, 255, 255);
+        transition: 0.7s;
+        line-height: 5px ;
+        text-decoration-thickness: 5px ;
+        
+     }
+      
+     /* 2nd navbar mediaquiries */
+
+     @media(max-width:1276px){
+         .health {
+            display: none;
+         }
+         .art{
+            display: none;
+         }
+     }
+      @media(max-width:1046px){
+        .stories{
+            display: none;
+        }
+        .science{
+            display: none;
+        }
+      }
+      @media(max-width:876px){
+        .tech{
+            display: none;
+        }
+        .business{
+            display: none;
+        }
+      }
+      @media(max-width:758px){
+        .uk{
+            display: none;
+        }
+      }
+      @media(max-width:666px){
+        .asia{
+            display: none;
+        }
+      }
+      @media(max-width:600px){
+        .world{
+          display: none;
+        }
+      }
+      @media(max-width:1274px){
+        .secndul{
+            margin-left: -107px;
+        }
+      }
+      @media(max-width:575px){
+        .logo{
+            margin-top: -5px;
+            padding-left: 0px;
+        }
+      }
+      #stories{
+        text-decoration: none;
+        color: aliceblue;
+        font-size: large;
+        font-weight: 500;
+        margin-top: 60px;
+        margin-left: -100px;
+        display: none;
+      }
+      #read{
+        text-decoration: none;
+        color: aliceblue;
+        font-size: large;
+        font-weight: 500;
+        margin-top: 60px;
+        margin-right: -160px;
+        display: none;
+      }
+      @media(max-width:576px){
+        #stories{
+            display: block;
+        }
+        #read{
+            display: block;
+        }
+      }
+
+      /* body content start from here */
+      .anchor{
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+      }
+      .text{
+        text-align: left;
+        
+      }
+      .newtext:hover{
+         text-decoration: underline;
+         color: red;
+      }
+      .text:hover{
+        text-decoration: underline;
+        color: red;
+      }
+      .carpic{
+        width:657px;
+        display: none;
+      }
+      @media(min-width:913px){
+        .carpic{
+          display: block;
+        }
+      }
+      #headpic{
+        display: none;
+      }
+      @media(max-width:913px){
+        #headpic{
+          display: block;
+        }
+      }
+      .car{
+        margin-top: -9rem;
+        margin-left: 15rem;
+      }
+      .imgcar{
+        width: 56%;
+      }
+      .ancher{
+        text-decoration: none;
+        color: black;
+        
+      }
+      .ancher .h5:hover{
+          text-decoration: underline;
+          color: red;
+      }
+     .zx{
+        text-decoration: dotted;
+        color: black;
+     }
+     .abc{
+        
+        margin-left: -15px;
+     }
+     .def{
+        margin-left: 80px;
+     }
+     .rrr{
+        margin-left: 70px;
+     }
+     
+     .anc1122{
+        text-decoration: none;
+        color: black;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 17px;
+     }
+     .anc1122:hover{
+        text-decoration: underline;
+        color: red;
+     }
+     .woman{
+      display: none;
+     }
+    
+     .people{
+        margin-left: -5px;
+        display: none;
+     }
+     .axzs{
+        display: none;
+     }
+     .thre-line{
+        display: none;
+     }
+     .py-2{
+        text-decoration: none;
+        color: black;
+       }
+       .newpeople{
+        display: none;
+       }
+      /* media quiries for secrion {"main"} */
+      @media(max-width:913px){
+        .newpeople{
+          display: block;
+        }
+      }
+      @media(min-width:913px){
+        .people{
+          display: block;
+        }
+      }
+      .newwoman{
+        display: none;
+      }
+      @media(max-width:1157px){
+        .newwoman{
+          display: block;
+        }
+      }
+      @media(min-width:1157px){
+        .woman{
+          display: block;
+        }
+       }
+      @media(max-width:685px){
+        .text{
+            display: none;
+        }   
+        .car{
+            margin-left: 0rem;
+            margin-top: 0rem;
+            
+        }
+        .axzs{
+            display: block;
+       }
+       .thre-line{
+        display: block;
+       }
+       .rrr{
+        margin-left: -30px;
+       }
+       .def{
+        margin-left: -30px;
+       }
+       .abc{
+        margin-left: -30px;
+       }
+       
+       
+       .py-2:hover{
+        text-decoration: underline;
+        color: red;
+       }
+       
+      }
+      @media(max-width:545px){
+        .last-pic{
+            margin-right: 10rem;
+          }
+          .people{
+            margin-left: 0px;
+            padding-right: 18px;
+          }
+      }
+
+
+      /* section must-see css */
+
+      #newpic1 {
+        display: none;
+      }
+      #newpic2{
+        display: none;
+      }
+      #newpic3{
+        display: none;
+      }
+      .pic1{
+        margin-top: 12px;
+        display: none;
+      }
+      .pic2{
+        display: none;
+      }
+      .pic3{
+        display: none;
+      }
+     .girl{
+      display: none;
+     }
+     .newgirl{
+      display: none;
+     }
+     
+      @media(min-width:1271px){
+        .pic1{
+          display: block;
+        }
+        .pic2{
+          display: block;
+        }
+        .pic3{
+          display: block;
+        }
+        .girl{
+          display: block;
+        }
+        
+      }
+      @media(max-width:1271px){
+        .newgirl{
+          display: block;
+        }
+        #newpic1{
+          display: block;
+        }
+        #newpic2{
+          display: block;
+        }
+        #newpic3{
+          display: block;
+        }
+      }
+      @media(max-width:914px){
+          .jwelery{
+            width:auto ;
+          }
+      }
+      .newcol{
+        margin-bottom: 2rem;
+      }
+      #step1{
+        width: 170% auto;
+        border-top: 3px solid black;
+        color: black;
+        margin-left: 8rem;
+        margin-top: -10px;
+    
+      }
+      .sectionword{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: x-large;
+        font-weight: 600;
+      }
+      .heist-text{
+        text-decoration: none;
+        color: black;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: 600;
+      }
+      .card-title1{
+        margin-top: -8px;
+        background-color: red;
+        color: aliceblue;
+        width: 118%;
+        height: 36px;
+        margin-top: -16px;
+        margin-left: -16px;
+      }
+      .card-title2{
+        margin-top: -8px;
+        background-color:black;
+        color: aliceblue;
+        width: 118%;
+        height: 36px;
+        margin-top: -16px;
+        margin-left: -16px;
+      }
+      #bbctv{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        font-weight: 500;
+      }
+      #bbctv:hover{
+        text-decoration: underline;
+        color: red;
+      }
+      .text12{
+        font-size: small;
+      }
+      .cardtext{
+        font-size: 12px;
+        margin-bottom: -0px;
+      }
+      #bbcradio{
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        font-weight: 500;
+      }
+      #bbcradio:hover{
+        text-decoration: underline;
+        color: red;
+      }
+      .cardcol{
+        margin-right: -3rem;
+      }
+    .num1{
+      margin-left: 2rem;
+      font-size: 1.25rem;
+      margin-top: -52px;
+    }
+    #num1{
+      font-size: 43px;
+      color: red;
+      font-weight: 600;
+      font-weight: 600;
+    }
+    .bi-twitter{
+      color: rgb(44, 162, 201);
+    }
+    .bi-instagram{
+      color: rgb(245, 15, 172);
+    }
+    .bi-twitter:hover{
+      background-color: rgb(44, 162, 201);
+      color: aliceblue;
+    }
+    .bi-facebook:hover{
+       background-color: rgb(13, 81, 197);
+       color:white;
+    }
+    .bi-instagram:hover{
+       background-color: rgb(245, 15, 172);
+       color: aliceblue;
+    }
+    .verticalline-2{
+      border-left: 1px solid black;
+      height: 70px;
+      position: absolute;
+      margin-left: -40px;
+    }
+    .vertilink{
+      text-decoration: none;
+      color: black;
+    }
+    
+    .daily{
+      font-size: larger;
+    }
+    .vpera:hover{
+      text-decoration: underline;
+      color: red;
+    }
+    .insta{
+      margin-right: 2rem;
+    }
+    .facebook{
+      margin-right: -70px;
+    }
+    .twitter{
+      margin-right: -70px;
+    }
+    .mobile{
+      text-decoration: none;
+      color: black;
+    }
+    .phonelink:hover{
+      text-decoration: underline;
+      color: red;
+    }
+    .email{
+      margin-left: 2rem;
+    }
+    #again{
+      display: none;
+    }
+    .for-media{
+      display: none;
+    }
+    
+    /* media quiries for section finf ud */
+
+    @media(max-width:1046px){
+      .email{
+
+        display: none;
+      }
+    }
+    @media(max-width:1046px) {
+      #again{
+        display: block;
+      }
+    }
+    @media (max-width:800px){
+      .mphn{
+        display:none;
+      }
+      .for-media{
+        display: block;
+      }
+    }
+
+    /* for section footer */
+    .foot{
+      background-color: rgb(81, 81, 81);
+    }
+    #lasthr{
+      width: 170% auto;
+      border-top: 3px solid rgb(255, 254, 254);
+      color: rgb(255, 252, 252);
+  }
+  .endinglinks{
+    margin-left: -8px;
+  }
+  #ends{
+    text-decoration: none;
+    color:aliceblue ;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  #ends:hover{
+    text-decoration: underline;
+    color: aliceblue;
+  }
+  #endlastlink{
+    text-decoration: none;
+    color: aliceblue;
+  }
+  #endlastlink:hover{
+    text-decoration: underline;
+    color: aliceblue;
+  }
+  .lastpera{
+    color: aliceblue;
+    text-decoration: none;
+  }
+  .footerlogo{
+    color: aliceblue;
+    font-size: x-large;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 13px;
+  }
+    
+
+      
+
+     
+      
+          
+
+      
+      
+      
+       
